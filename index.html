@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MarginNote 插件商店</title>
+  <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+  <header class="header">
+    <h1>MarginNote 插件商店</h1>
+    <div class="search-wrap">
+      <label for="q">搜索插件</label>
+      <input type="search" id="q" class="search" placeholder="按名称、作者或 ID 搜索…" autocomplete="off" />
+    </div>
+  </header>
+
+  <main>
+    <div class="banner" id="hint-banner">
+      <p>插件安装功能依赖于AddonLib或MNUtls插件，请确保已安装。<br/>若未安装请先下载后手动安装再使用插件商店。</p>
+    </div>
+    <div class="error-box" id="load-error" role="alert"></div>
+    <p class="count" id="count" aria-live="polite"></p>
+    <div class="tag-bar-wrap" id="tag-bar-wrap" hidden>
+      <span class="tag-bar-label" id="tag-bar-label">标签</span>
+      <div
+        class="tag-bar-scroll"
+        id="tag-bar"
+        role="toolbar"
+        aria-labelledby="tag-bar-label"
+      ></div>
+    </div>
+    <div class="grid" id="grid" role="list"></div>
+  </main>
+
+  <div class="overlay" id="overlay" aria-hidden="true">
+    <aside
+      class="drawer"
+      id="drawer"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="detail-title"
+    >
+      <div class="drawer-header" style="position: relative;">
+        <button type="button" class="drawer-close" id="drawer-close" aria-label="关闭详情">×</button>
+        <img class="drawer-icon" id="detail-icon" alt="" width="80" height="80" hidden />
+        <div class="drawer-title-block">
+          <h2 id="detail-title"></h2>
+          <p class="drawer-sub" id="detail-sub"></p>
+        </div>
+      </div>
+      <div class="drawer-wrap" id="detail-body"></div>
+    </aside>
+  </div>
+
+  <script src="subfunc.js"></script>
+  <script src="marked.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>

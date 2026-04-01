@@ -1,0 +1,796 @@
+[
+  {
+    "name": "MN WebDAV",
+    "version": "0.0.1",
+    "author": "Feliks",
+    "id": "mnwebdav",
+    "summary": "WebDAV 客户端",
+    "description": "https://mnaddon.craft.me/webdav",
+    "customUrl": true,
+    "logo": "https://1836303614.v.123pan.cn/1836303614/dl/icon/addon_certificated.png",
+    "globalLogo": "https://qiniu.feliks.top/icon/addon_certificated.png",
+    "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnwebdav_v0_0_1.mnaddon",
+    "backUpUrl": "https://qiniu.feliks.top/mnwebdav_v0_0_1.mnaddon",
+    "globalUrl": "https://qiniu.feliks.top/mnwebdav_v0_0_1.mnaddon",
+    "changelog": "https://marginnote.craft.me/changelog/webdav",
+    "action": "install"
+  },
+  {
+    "name": "MN ChatAI",
+    "version": "0.2.9",
+    "author": "Feliks",
+    "id": "mnchatglm",
+    "summary": "ChatAI 助手",
+    "tags": ["AI"],
+    "description": "https://mnaddon.craft.me/chatai",
+    "customUrl": true,
+    "logo": "https://1836303614.v.123pan.cn/1836303614/dl/icon/addon_certificated.png",
+    "globalLogo": "https://qiniu.feliks.top/icon/addon_certificated.png",
+    "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnchatglm_v0_2_9.mnaddon",
+    "backUpUrl": "https://qiniu.feliks.top/mnchatglm_v0_2_9.mnaddon",
+    "globalUrl": "https://qiniu.feliks.top/mnchatglm_v0_2_9.mnaddon",
+    "changelog": "https://marginnote.craft.me/changelog/chatai",
+    "action": "install",
+    "history": [
+      {
+        "version": "0.2.9",
+        "customUrl": true,
+        "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnchatglm_v0_2_9.mnaddon",
+        "backUpUrl": "https://qiniu.feliks.top/mnchatglm_v0_2_9.mnaddon",
+        "globalUrl": "https://qiniu.feliks.top/mnchatglm_v0_2_9.mnaddon",
+        "changeLogUrl": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/changeLog/mnchatglm_v0_2_9.md"
+      },
+      {
+        "version": "0.2.8",
+        "customUrl": true,
+        "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnchatglm_v0_2_8.mnaddon",
+        "backUpUrl": "https://qiniu.feliks.top/mnchatglm_v0_2_8.mnaddon",
+        "globalUrl": "https://qiniu.feliks.top/mnchatglm_v0_2_8.mnaddon",
+        "changeLogUrl": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/changeLog/mnchatglm_v0_2_8.md"
+      },
+      {
+        "version": "0.2.7",
+        "customUrl": true,
+        "url": "https://cdn.u1162561.nyat.app:43836/d/cdn/mnaddonStore/mnchatglm_v0_2_7.mnaddon",
+        "backUpUrl": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnchatglm_v0_2_7.mnaddon",
+        "changeLogUrl": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/changeLog/mnchatglm_v0_2_7.md"
+      },
+      {
+        "version": "0.2.6",
+        "customUrl": true,
+        "url": "https://cdn.u1162561.nyat.app:43836/d/cdn/mnaddonStore/mnchatglm_v0_2_6.mnaddon",
+        "backUpUrl": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnchatglm_v0_2_6.mnaddon"
+      },
+      {
+        "version": "0.2.5",
+        "customUrl": true,
+        "url": "https://cdn.u1162561.nyat.app:43836/d/cdn/mnaddonStore/mnchatglm_v0_2_5.mnaddon",
+        "backUpUrl": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnchatglm_v0_2_5.mnaddon"
+      },
+      {
+        "version": "0.2.4",
+        "customUrl": true,
+        "url": "https://cdn.u1162561.nyat.app:43836/d/cdn/mnaddonStore/mnchatglm_v0_2_4.mnaddon",
+        "backUpUrl": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnchatglm_v0_2_4.mnaddon"
+      },
+      {
+        "version": "0.2.3",
+        "customUrl": true,
+        "url": "https://cdn.u1162561.nyat.app:43836/d/cdn/mnaddonStore/mnchatglm_v0_2_3.mnaddon",
+        "backUpUrl": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnchatglm_v0_2_3.mnaddon"
+      },
+      {
+        "version": "0.2.2",
+        "customUrl": true,
+        "url": "https://cdn.u1162561.nyat.app:43836/d/cdn/mnaddonStore/mnchatglm_v0_2_2.mnaddon",
+        "backUpUrl": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnchatglm_v0_2_2.mnaddon"
+      },
+      {
+        "version": "0.2.1",
+        "customUrl": true,
+        "url": "https://cdn.u1162561.nyat.app:43836/d/cdn/mnaddonStore/mnchatglm_v0_2_1.mnaddon",
+        "backUpUrl": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnchatglm_v0_2_1.mnaddon"
+      },
+      {
+        "version": "0.2.0",
+        "customUrl": true,
+        "url": "https://cdn.u1162561.nyat.app:43836/d/cdn/mnaddonStore/mnchatglm_v0_2_0.mnaddon",
+        "backUpUrl": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnchatglm_v0_2_0.mnaddon"
+      }
+    ]
+  },
+  {
+    "name": "MN Utils",
+    "version": "0.2.1",
+    "author": "Feliks",
+    "id": "mnutils",
+    "description": "https://mnaddon.craft.me/utils",
+    "logo": "https://1836303614.v.123pan.cn/1836303614/dl/icon/addon_certificated.png",
+    "globalLogo": "https://qiniu.feliks.top/icon/addon_certificated.png",
+    "customUrl": true,
+    "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnutils_v0_2_1.mnaddon",
+    "backUpUrl": "https://qiniu.feliks.top/mnutils_v0_2_1.mnaddon",
+    "changelog": "https://marginnote.craft.me/changelog/utils",
+    "action": "install",
+    "history": [
+      {
+        "version": "0.2.1",
+        "customUrl": true,
+        "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnutils_v0_2_1.mnaddon",
+        "backUpUrl": "https://qiniu.feliks.top/mnutils_v0_2_1.mnaddon",
+        "globalUrl": "https://qiniu.feliks.top/mnutils_v0_2_1.mnaddon",
+        "changeLogUrl": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/changeLog/mnutils_v0_2_1.md"
+      },
+      {
+        "version": "0.2.0",
+        "customUrl": true,
+        "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnutils_v0_2_0.mnaddon",
+        "backUpUrl": "https://qiniu.feliks.top/mnutils_v0_2_0.mnaddon",
+        "globalUrl": "https://qiniu.feliks.top/mnutils_v0_2_0.mnaddon"
+      },
+      {
+        "version": "0.1.9",
+        "customUrl": true,
+        "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnutils_v0_1_9.mnaddon",
+        "backUpUrl": "https://qiniu.feliks.top/mnutils_v0_1_9.mnaddon",
+        "globalUrl": "https://qiniu.feliks.top/mnutils_v0_1_9.mnaddon"
+      },
+      {
+        "version": "0.1.8",
+        "customUrl": true,
+        "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnutils_v0_1_8.mnaddon",
+        "backUpUrl": "https://qiniu.feliks.top/mnutils_v0_1_8.mnaddon",
+        "globalUrl": "https://qiniu.feliks.top/mnutils_v0_1_8.mnaddon"
+      },
+      {
+        "version": "0.1.7",
+        "customUrl": true,
+        "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnutils_v0_1_7.mnaddon",
+        "backUpUrl": "https://qiniu.feliks.top/mnutils_v0_1_7.mnaddon",
+        "globalUrl": "https://qiniu.feliks.top/mnutils_v0_1_7.mnaddon"
+      },
+      {
+        "version": "0.1.6",
+        "customUrl": true,
+        "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnutils_v0_1_6.mnaddon",
+        "backUpUrl": "https://qiniu.feliks.top/mnutils_v0_1_6.mnaddon",
+        "globalUrl": "https://qiniu.feliks.top/mnutils_v0_1_6.mnaddon"
+      },
+      {
+        "version": "0.1.5",
+        "customUrl": true,
+        "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnutils_v0_1_5.mnaddon",
+        "backUpUrl": "https://qiniu.feliks.top/mnutils_v0_1_5.mnaddon",
+        "globalUrl": "https://qiniu.feliks.top/mnutils_v0_1_5.mnaddon"
+      },
+      {
+        "version": "0.1.4",
+        "customUrl": true,
+        "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnutils_v0_1_4.mnaddon",
+        "backUpUrl": "https://qiniu.feliks.top/mnutils_v0_1_4.mnaddon",
+        "globalUrl": "https://qiniu.feliks.top/mnutils_v0_1_4.mnaddon"
+      },
+      {
+        "version": "0.1.3",
+        "customUrl": true,
+        "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnutils_v0_1_3.mnaddon",
+        "backUpUrl": "https://qiniu.feliks.top/mnutils_v0_1_3.mnaddon",
+        "globalUrl": "https://qiniu.feliks.top/mnutils_v0_1_3.mnaddon"
+      }
+    ]
+  },
+  {
+    "name": "MN Toolbar",
+    "version": "0.1.5",
+    "author": "Feliks",
+    "id": "mntoolbar",
+    "description": "https://mnaddon.craft.me/toolbar",
+    "logo": "https://1836303614.v.123pan.cn/1836303614/dl/icon/addon_certificated.png",
+    "globalLogo": "https://qiniu.feliks.top/icon/addon_certificated.png",
+    "customUrl": true,
+    "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mntoolbar_v0_1_5.mnaddon",
+    "backUpUrl": "https://qiniu.feliks.top/mntoolbar_v0_1_5.mnaddon",
+    "globalUrl": "https://qiniu.feliks.top/mntoolbar_v0_1_5.mnaddon",
+    "changelog": "https://marginnote.craft.me/changelog/toolbar",
+    "action": "install",
+    "history": [
+      {
+        "version": "0.1.5",
+        "customUrl": true,
+        "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mntoolbar_v0_1_5.mnaddon",
+        "backUpUrl": "https://qiniu.feliks.top/mntoolbar_v0_1_5.mnaddon",
+        "globalUrl": "https://qiniu.feliks.top/mntoolbar_v0_1_5.mnaddon",
+        "changeLogUrl": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/changeLog/mntoolbar_v0_1_5.md"
+      },
+      {
+        "version": "0.1.4",
+        "customUrl": true,
+        "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mntoolbar_v0_1_4.mnaddon",
+        "backUpUrl": "https://qiniu.feliks.top/mntoolbar_v0_1_4.mnaddon",
+        "globalUrl": "https://qiniu.feliks.top/mntoolbar_v0_1_4.mnaddon"
+      },
+      {
+        "version": "0.1.3",
+        "customUrl": true,
+        "url": "https://cdn.u1162561.nyat.app:43836/d/cdn/mnaddonStore/mntoolbar_v0_1_3.mnaddon",
+        "backUpUrl": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mntoolbar_v0_1_3.mnaddon"
+      },
+      {
+        "version": "0.1.2",
+        "customUrl": true,
+        "url": "https://cdn.u1162561.nyat.app:43836/d/cdn/mnaddonStore/mntoolbar_v0_1_2.mnaddon",
+        "backUpUrl": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mntoolbar_v0_1_2.mnaddon"
+      },
+      {
+        "version": "0.1.1",
+        "customUrl": true,
+        "url": "https://cdn.u1162561.nyat.app:43836/d/cdn/mnaddonStore/mntoolbar_v0_1_1.mnaddon",
+        "backUpUrl": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mntoolbar_v0_1_1.mnaddon"
+      },
+      {
+        "version": "0.1.0",
+        "customUrl": true,
+        "url": "https://cdn.u1162561.nyat.app:43836/d/cdn/mnaddonStore/mntoolbar_v0_1_0.mnaddon",
+        "backUpUrl": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mntoolbar_v0_1_0.mnaddon"
+      }
+    ]
+  },
+  {
+    "name": "MN Browser",
+    "version": "0.2.4",
+    "author": "Feliks",
+    "logo": "https://1836303614.v.123pan.cn/1836303614/dl/icon/addon_certificated.png",
+    "globalLogo": "https://qiniu.feliks.top/icon/addon_certificated.png",
+    "id": "mnbrowser",
+    "description": "https://mnaddon.craft.me/browser",
+    "customUrl": true,
+    "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnbrowser_v0_2_4.mnaddon",
+    "backUpUrl": "https://qiniu.feliks.top/mnbrowser_v0_2_4.mnaddon",
+    "globalUrl": "https://qiniu.feliks.top/mnbrowser_v0_2_4.mnaddon",
+    "changelog": "https://marginnote.craft.me/changelog/browser",
+    "action": "install",
+    "history": [
+      {
+        "version": "0.2.4",
+        "customUrl": true,
+        "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnbrowser_v0_2_4.mnaddon",
+        "backUpUrl": "https://qiniu.feliks.top/mnbrowser_v0_2_4.mnaddon",
+        "globalUrl": "https://qiniu.feliks.top/mnbrowser_v0_2_4.mnaddon",
+        "changeLogUrl": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/changeLog/mnbrowser_v0_2_4.md"
+      },
+      {
+        "version": "0.2.3",
+        "customUrl": true,
+        "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnbrowser_v0_2_3.mnaddon",
+        "backUpUrl": "https://qiniu.feliks.top/mnbrowser_v0_2_3.mnaddon",
+        "globalUrl": "https://qiniu.feliks.top/mnbrowser_v0_2_3.mnaddon"
+      },
+      {
+        "version": "0.2.2",
+        "customUrl": true,
+        "url": "https://cdn.u1162561.nyat.app:43836/d/cdn/mnaddonStore/mnbrowser_v0_2_2.mnaddon",
+        "backUpUrl": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnbrowser_v0_2_2.mnaddon",
+        "globalUrl": "https://qiniu.feliks.top/mnbrowser_v0_2_2.mnaddon"
+      },
+      {
+        "version": "0.2.1",
+        "customUrl": true,
+        "url": "https://cdn.u1162561.nyat.app:43836/d/cdn/mnaddonStore/mnbrowser_v0_2_1.mnaddon",
+        "backUpUrl": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnbrowser_v0_2_1.mnaddon",
+        "globalUrl": "https://qiniu.feliks.top/mnbrowser_v0_2_1.mnaddon"
+      }
+    ]
+  },
+  {
+    "name": "MN Snipaste",
+    "version": "0.1.3",
+    "author": "Feliks",
+    "logo": "https://1836303614.v.123pan.cn/1836303614/dl/icon/addon_certificated.png",
+    "globalLogo": "https://qiniu.feliks.top/icon/addon_certificated.png",
+    "id": "mnsnipaste",
+    "description": "https://mnaddon.craft.me/snipaste",
+    "customUrl": true,
+    "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnsnipaste_v0_1_3.mnaddon",
+    "backUpUrl": "https://qiniu.feliks.top/mnsnipaste_v0_1_3.mnaddon",
+    "globalUrl": "https://qiniu.feliks.top/mnsnipaste_v0_1_3.mnaddon",
+    "changelog": "https://marginnote.craft.me/changelog/snipaste",
+    "action": "install",
+    "history": [
+      {
+        "version": "0.1.3",
+        "customUrl": true,
+        "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnsnipaste_v0_1_3.mnaddon",
+        "backUpUrl": "https://qiniu.feliks.top/mnsnipaste_v0_1_3.mnaddon",
+        "globalUrl": "https://qiniu.feliks.top/mnsnipaste_v0_1_3.mnaddon",
+        "changeLogUrl": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/changeLog/mnsnipaste_v0_1_3.md"
+      },
+      {
+        "version": "0.1.2",
+        "customUrl": true,
+        "url": "https://cdn.u1162561.nyat.app:43836/d/cdn/mnaddonStore/mnsnipaste_v0_1_2.mnaddon",
+        "backUpUrl": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnsnipaste_v0_1_2.mnaddon"
+      },
+      {
+        "version": "0.1.1",
+        "customUrl": true,
+        "url": "https://cdn.u1162561.nyat.app:43836/d/cdn/mnaddonStore/mnsnipaste_v0_1_1.mnaddon",
+        "backUpUrl": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnsnipaste_v0_1_1.mnaddon"
+      },
+      {
+        "version": "0.1.0",
+        "customUrl": true,
+        "url": "https://cdn.u1162561.nyat.app:43836/d/cdn/mnaddonStore/mnsnipaste_v0_1_0.mnaddon",
+        "backUpUrl": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnsnipaste_v0_1_0.mnaddon"
+      },
+      {
+        "version": "0.0.9",
+        "customUrl": true,
+        "url": "https://cdn.u1162561.nyat.app:43836/d/cdn/mnaddonStore/mnsnipaste_v0_0_9.mnaddon",
+        "backUpUrl": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnsnipaste_v0_0_9.mnaddon"
+      }
+    ]
+  },
+  {
+    "name": "MN OCR",
+    "version": "0.0.4",
+    "author": "Feliks",
+    "id": "mnocr",
+    "description": "https://mnaddon.craft.me/ocr",
+    "logo": "https://1836303614.v.123pan.cn/1836303614/dl/icon/addon_certificated.png",
+    "globalLogo": "https://qiniu.feliks.top/icon/addon_certificated.png",
+    "customUrl": true,
+    "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnocr_v0_0_4.mnaddon",
+    "backUpUrl": "https://qiniu.feliks.top/mnocr_v0_0_4.mnaddon",
+    "globalUrl": "https://qiniu.feliks.top/mnocr_v0_0_4.mnaddon",
+    "changelog": "https://marginnote.craft.me/changelog/ocr",
+    "action": "install",
+    "history": [
+      {
+        "version": "0.0.4",
+        "customUrl": true,
+        "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnocr_v0_0_4.mnaddon",
+        "backUpUrl": "https://qiniu.feliks.top/mnocr_v0_0_4.mnaddon",
+        "globalUrl": "https://qiniu.feliks.top/mnocr_v0_0_4.mnaddon",
+        "changeLogUrl": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/changeLog/mnocr_v0_0_4.md"
+      },
+      {
+        "version": "0.0.3",
+        "customUrl": true,
+        "url": "https://cdn.u1162561.nyat.app:43836/d/cdn/mnaddonStore/mnocr_v0_0_3.mnaddon",
+        "backUpUrl": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnocr_v0_0_3.mnaddon"
+      },
+      {
+        "version": "0.0.2",
+        "customUrl": true,
+        "url": "https://cdn.u1162561.nyat.app:43836/d/cdn/mnaddonStore/mnocr_v0_0_2.mnaddon",
+        "backUpUrl": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnocr_v0_0_2.mnaddon"
+      },
+      {
+        "version": "0.0.1",
+        "customUrl": true,
+        "url": "https://cdn.u1162561.nyat.app:43836/d/cdn/mnaddonStore/mnocr_v0_0_1.mnaddon",
+        "backUpUrl": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnocr_v0_0_1.mnaddon"
+      }
+    ]
+  },
+  {
+    "name": "MN Timer",
+    "version": "0.0.3",
+    "author": "Feliks",
+    "id": "mntimer",
+    "description": "https://mnaddon.craft.me/timer",
+    "logo": "https://1836303614.v.123pan.cn/1836303614/dl/icon/addon_certificated.png",
+    "globalLogo": "https://qiniu.feliks.top/icon/addon_certificated.png",
+    "customUrl": true,
+    "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mntimer_v0_0_3.mnaddon",
+    "backUpUrl": "https://qiniu.feliks.top/mntimer_v0_0_3.mnaddon",
+    "globalUrl": "https://qiniu.feliks.top/mntimer_v0_0_3.mnaddon",
+    "changelog": "https://marginnote.craft.me/changelog/timer",
+    "action": "install",
+    "history": [
+      {
+        "version": "0.0.3",
+        "customUrl": true,
+        "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mntimer_v0_0_3.mnaddon",
+        "backUpUrl": "https://qiniu.feliks.top/mntimer_v0_0_3.mnaddon",
+        "globalUrl": "https://qiniu.feliks.top/mntimer_v0_0_3.mnaddon",
+        "changeLogUrl": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/changeLog/mntimer_v0_0_3.md"
+      }
+    ]
+  },
+  {
+    "name": "MN AutoStyle",
+    "version": "0.0.7",
+    "author": "Feliks",
+    "id": "mnautostyle",
+    "description": "https://mnaddon.craft.me/autostyle",
+    "logo": "https://1836303614.v.123pan.cn/1836303614/dl/icon/addon_certificated.png",
+    "globalLogo": "https://qiniu.feliks.top/icon/addon_certificated.png",
+    "customUrl": true,
+    "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnautostyle_v0_0_7.mnaddon",
+    "backUpUrl": "https://qiniu.feliks.top/mnautostyle_v0_0_7.mnaddon",
+    "globalUrl": "https://qiniu.feliks.top/mnautostyle_v0_0_7.mnaddon",
+    "changelog": "https://marginnote.craft.me/changelog/autostyle",
+    "action": "install",
+    "history": [
+      {
+        "version": "0.0.7",
+        "customUrl": true,
+        "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnautostyle_v0_0_7.mnaddon",
+        "backUpUrl": "https://qiniu.feliks.top/mnautostyle_v0_0_7.mnaddon",
+        "globalUrl": "https://qiniu.feliks.top/mnautostyle_v0_0_7.mnaddon",
+        "changeLogUrl": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/changeLog/mnautostyle_v0_0_7.md"
+      },
+      {
+        "version": "0.0.6",
+        "customUrl": true,
+        "url": "https://cdn.u1162561.nyat.app:43836/d/cdn/mnaddonStore/mnautostyle_v0_0_6.mnaddon",
+        "backUpUrl": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnautostyle_v0_0_6.mnaddon"
+      },
+      {
+        "version": "0.0.5",
+        "customUrl": true,
+        "url": "https://cdn.u1162561.nyat.app:43836/d/cdn/mnaddonStore/mnautostyle_v0_0_5.mnaddon",
+        "backUpUrl": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnautostyle_v0_0_5.mnaddon"
+      }
+    ]
+  },
+  {
+    "name": "MN Editor",
+    "version": "0.0.4",
+    "author": "Feliks",
+    "id": "mneditor",
+    "description": "https://mnaddon.craft.me/editor",
+    "logo": "https://1836303614.v.123pan.cn/1836303614/dl/icon/addon_certificated.png",
+    "globalLogo": "https://qiniu.feliks.top/icon/addon_certificated.png",
+    "customUrl": true,
+    "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mneditor_v0_0_4.mnaddon",
+    "backUpUrl": "https://qiniu.feliks.top/mneditor_v0_0_4.mnaddon",
+    "globalUrl": "https://qiniu.feliks.top/mneditor_v0_0_4.mnaddon",
+    "backup123": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/",
+    "changelog": "https://marginnote.craft.me/changelog/editor",
+    "action": "install",
+    "history": [
+      {
+        "version": "0.0.4",
+        "customUrl": true,
+        "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mneditor_v0_0_4.mnaddon",
+        "backUpUrl": "https://qiniu.feliks.top/mneditor_v0_0_4.mnaddon",
+        "globalUrl": "https://qiniu.feliks.top/mneditor_v0_0_4.mnaddon",
+        "changeLogUrl": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/changeLog/mneditor_v0_0_4.md"
+      },
+      {
+        "version": "0.0.3",
+        "customUrl": true,
+        "url": "https://cdn.u1162561.nyat.app:43836/d/cdn/mnaddonStore/mneditor_v0_0_3.mnaddon",
+        "backUpUrl": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mneditor_v0_0_3.mnaddon"
+      },
+      {
+        "version": "0.0.2",
+        "customUrl": true,
+        "url": "https://cdn.u1162561.nyat.app:43836/d/cdn/mnaddonStore/mneditor_v0_0_2.mnaddon",
+        "backUpUrl": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mneditor_v0_0_2.mnaddon"
+      }
+    ]
+  },
+  {
+    "name": "MN Pinner",
+    "version": "4.1.0",
+    "author": "Kangwei Xia",
+    "id": "mnpinner",
+    "description": "https://bbs.marginnote.com.cn/t/topic/66099",
+    "customUrl": true,
+    "manifestUrl": "https://xkwxdyy.cn/update/mnpinner.json",
+    "logo": "https://1836303614.v.123pan.cn/1836303614/dl/icon/addon_certificated.png",
+    "globalLogo": "https://qiniu.feliks.top/icon/addon_certificated.png",
+    "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnpinner_v4_1.mnaddon",
+    "backUpUrl": "https://qiniu.feliks.top/mnpinner_v4_1.mnaddon",
+    "backup123": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/",
+    "action": "install"
+  },
+  {
+    "name": "MN Excalidraw",
+    "version": "0.0.1",
+    "author": "Feliks",
+    "id": "mnexcalidraw",
+    "description": "https://mnaddon.craft.me/excalidraw",
+    "customUrl": true,
+    "logo": "https://1836303614.v.123pan.cn/1836303614/dl/icon/addon_certificated.png",
+    "globalLogo": "https://qiniu.feliks.top/icon/addon_certificated.png",
+    "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnexcalidraw_v0_0_1.mnaddon",
+    "backUpUrl": "https://qiniu.feliks.top/mnexcalidraw_v0_0_1.mnaddon",
+    "globalUrl": "https://qiniu.feliks.top/mnexcalidraw_v0_0_1.mnaddon",
+    "backup123": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/",
+    "changelog": "https://marginnote.craft.me/changelog/excalidraw",
+    "action": "install"
+  },
+  {
+    "name": "MN Network",
+    "version": "0.1.2",
+    "author": "Feliks",
+    "id": "mnnetwork",
+    "description": "https://bbs.marginnote.com.cn/t/topic/44639",
+    "logo": "https://1836303614.v.123pan.cn/1836303614/dl/icon/addon_certificated.png",
+    "globalLogo": "https://qiniu.feliks.top/icon/addon_certificated.png",
+    "customUrl": true,
+    "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnnetwork_v0_1_2.mnaddon",
+    "backUpUrl": "https://qiniu.feliks.top/mnnetwork_v0_1_2.mnaddon",
+    "globalUrl": "https://qiniu.feliks.top/mnnetwork_v0_1_2.mnaddon",
+    "backup123": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/",
+    "action": "install"
+  },
+  {
+    "name": "MN Bigbang",
+    "version": "0.0.6",
+    "author": "Feliks",
+    "id": "mnbigbang",
+    "description": "https://bbs.marginnote.com.cn/t/topic/44865",
+    "logo": "https://1836303614.v.123pan.cn/1836303614/dl/icon/addon_certificated.png",
+    "globalLogo": "https://qiniu.feliks.top/icon/addon_certificated.png",
+    "customUrl": true,
+    "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mnbigbang_v0_0_6.mnaddon",
+    "backUpUrl": "https://qiniu.feliks.top/mnbigbang_v0_0_6.mnaddon",
+    "globalUrl": "https://qiniu.feliks.top/mnbigbang_v0_0_6.mnaddon",
+    "backup123": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/",
+    "action": "install"
+  },
+  {
+    "name": "OhMyMN",
+    "version": "4.4.4.alpha0914",
+    "author": "ourongxing & slw",
+    "logo": "https://1836303614.v.123pan.cn/1836303614/dl/icon/addon.png",
+    "globalLogo": "https://qiniu.feliks.top/icon/addon.png",
+    "id": "ohmymn",
+    "description": "https://bbs.marginnote.com.cn/t/topic/20501",
+    "customUrl": true,
+    "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/ohmymn_v4_4_4_alpha0914.mnaddon",
+    "backup123": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/",
+    "globalUrl": "https://qiniu.feliks.top/ohmymn_v4_4_4_alpha0914.mnaddon",
+    "backUpUrl": "https://qiniu.feliks.top/ohmymn_v4_4_4_alpha0914.mnaddon",
+    "action": "install",
+    "history": [
+      {
+        "version": "4.4.4.alpha0914",
+        "customUrl": true,
+        "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/ohmymn_v4_4_4_alpha0914.mnaddon",
+        "backUpUrl": "https://qiniu.feliks.top/ohmymn_v4_4_4_alpha0914.mnaddon",
+        "globalUrl": "https://qiniu.feliks.top/ohmymn_v4_4_4_alpha0914.mnaddon"
+      },
+      {
+        "version": "4.4.3",
+        "customUrl": true,
+        "url": "https://alist.feliks.top/d/cdn/mnaddonStore/ohmymn_v4_4_3.mnaddon",
+        "backUpUrl": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/ohmymn_v4_4_3.mnaddon"
+      }
+    ]
+  },
+  {
+    "name": "Keep Screen ON",
+    "version": "1.0.0",
+    "author": "ourongxing",
+    "id": "keep_screen_on",
+    "description": "https://bbs.marginnote.com.cn/t/topic/36469",
+    "logo": "https://1836303614.v.123pan.cn/1836303614/dl/icon/addon.png",
+    "globalLogo": "https://qiniu.feliks.top/icon/addon.png",
+    "customUrl": true,
+    "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/keep_screen_on_v1_0_0.mnaddon",
+    "backUpUrl": "https://qiniu.feliks.top/keep_screen_on_v1_0_0.mnaddon",
+    "action": "install"
+  },
+  {
+    "name": "Mdx Dict Oxford",
+    "version": "1.0.7",
+    "author": "KaiKai & Feliks",
+    "id": "mdxdictoxford",
+    "logo": "https://1836303614.v.123pan.cn/1836303614/dl/icon/addon.png",
+    "globalLogo": "https://qiniu.feliks.top/icon/addon.png",
+    "description": "https://bbs.marginnote.com.cn/t/topic/19815/118",
+    "customUrl": true,
+    "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mdxdictoxford_v1_0_7.mnaddon",
+    "backUpUrl": "https://qiniu.feliks.top/mdxdictoxford_v1_0_7.mnaddon",
+    "action": "install"
+  },
+  {
+    "name": "Mdx Dict Collins",
+    "version": "1.0.7",
+    "author": "KaiKai & Feliks",
+    "id": "mdxdictcollins",
+    "logo": "https://1836303614.v.123pan.cn/1836303614/dl/icon/addon.png",
+    "globalLogo": "https://qiniu.feliks.top/icon/addon.png",
+    "description": "https://bbs.marginnote.com.cn/t/topic/19815/118",
+    "customUrl": true,
+    "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mdxdictcollins_V1_0_7.mnaddon",
+    "backUpUrl": "https://qiniu.feliks.top/mdxdictcollins_V1_0_7.mnaddon",
+    "action": "install"
+  },
+  {
+    "name": "DeepL Translator",
+    "version": "1.1.5",
+    "author": "MarginNote",
+    "logo": "https://1836303614.v.123pan.cn/1836303614/dl/icon/addon.png",
+    "globalLogo": "https://qiniu.feliks.top/icon/addon.png",
+    "id": "deepl",
+    "description": "https://bbs.marginnote.com.cn/t/topic/6113",
+    "customUrl": true,
+    "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/deepl_v1_1_5.mnaddon",
+    "backUpUrl": "https://qiniu.feliks.top/deepl_v1_1_5.mnaddon",
+    "action": "install"
+  },
+  {
+    "name": "Search in Eudic",
+    "version": "1.1",
+    "logo": "https://1836303614.v.123pan.cn/1836303614/dl/icon/addon.png",
+    "globalLogo": "https://qiniu.feliks.top/icon/addon.png",
+    "author": "MerlinZ & Feliks",
+    "id": "searchineudic",
+    "description": "https://bbs.marginnote.com.cn/t/topic/8143",
+    "customUrl": true,
+    "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/searchineudic_v1_1.mnaddon",
+    "backUpUrl": "https://qiniu.feliks.top/searchineudic_v1_1.mnaddon",
+    "action": "install"
+  },
+  {
+    "name": "Search in Eudic Plus",
+    "version": "2.1",
+    "author": "Yu Tong & Siyue",
+    "logo": "https://1836303614.v.123pan.cn/1836303614/dl/icon/addon_certificated.png",
+    "globalLogo": "https://qiniu.feliks.top/icon/addon_certificated.png",
+    "id": "searchineudicplus",
+    "description": "https://bbs.marginnote.com.cn/t/topic/33391",
+    "customUrl": true,
+    "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/searchineudicplus_v2_1.mnaddon",
+    "backUpUrl": "https://qiniu.feliks.top/searchineudicplus_v2_1.mnaddon",
+    "action": "install"
+  },
+  {
+    "name": "Search in FrHelper",
+    "version": "2.1",
+    "author": "Yu Tang & Avril",
+    "logo": "https://1836303614.v.123pan.cn/1836303614/dl/icon/addon_certificated.png",
+    "globalLogo": "https://qiniu.feliks.top/icon/addon_certificated.png",
+    "id": "searchinfrhelper",
+    "description": "https://bbs.marginnote.com.cn/t/topic/61154",
+    "customUrl": true,
+    "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/searchinfrhelper_v2_1.mnaddon",
+    "backUpUrl": "https://qiniu.feliks.top/searchinfrhelper_v2_1.mnaddon",
+    "action": "install"
+  },
+  {
+    "name": "Instant Copy",
+    "version": "1.0",
+    "author": "kulley",
+    "logo": "https://1836303614.v.123pan.cn/1836303614/dl/icon/addon.png",
+    "globalLogo": "https://qiniu.feliks.top/icon/addon.png",
+    "id": "instantcopy",
+    "description": "https://bbs.marginnote.com.cn/t/topic/6880",
+    "customUrl": true,
+    "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/instantcopy_v1_0.mnaddon",
+    "backUpUrl": "https://qiniu.feliks.top/instantcopy_v1_0.mnaddon",
+    "action": "install"
+  },
+  {
+    "name": "flomo",
+    "version": "0.0.3",
+    "logo": "https://1836303614.v.123pan.cn/1836303614/dl/icon/addon.png",
+    "globalLogo": "https://qiniu.feliks.top/icon/addon.png",
+    "author": "extrastu",
+    "id": "flomo",
+    "description": "https://bbs.marginnote.com.cn/t/topic/18381",
+    "customUrl": true,
+    "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/flomo_v0_0_3.mnaddon",
+    "backUpUrl": "https://qiniu.feliks.top/flomo_v0_0_3.mnaddon",
+    "action": "install"
+  },
+  {
+    "name": "GoToPage",
+    "logo": "https://1836303614.v.123pan.cn/1836303614/dl/icon/addon.png",
+    "globalLogo": "https://qiniu.feliks.top/icon/addon.png",
+    "version": "1.1.0",
+    "author": "BigGrayVVolf",
+    "id": "GoToPage",
+    "description": "https://bbs.marginnote.com.cn/t/topic/18787",
+    "customUrl": true,
+    "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/GoToPage_v1_1_0.mnaddon",
+    "backUpUrl": "https://qiniu.feliks.top/GoToPage_v1_1_0.mnaddon",
+    "action": "install"
+  },
+  {
+    "name": "脑图转嵌套表格",
+    "logo": "https://1836303614.v.123pan.cn/1836303614/dl/icon/addon.png",
+    "globalLogo": "https://qiniu.feliks.top/icon/addon.png",
+    "version": "2.5.24",
+    "author": "momo（科研绘图版）",
+    "id": "mindmap2table",
+    "description": "https://bbs.marginnote.com.cn/t/topic/67016",
+    "customUrl": true,
+    "url": "https://bbs.marginnote.com.cn/uploads/short-url/vRrkPI2hH9CFe1DAr2eqpNZkmdH.mnaddon",
+    "backUpUrl": "https://qiniu.feliks.top/mindmap2table_v3.5.12.mnaddon",
+    "action": "install",
+    "history": [
+      {
+        "version": "3.5.12",
+        "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mindmap2table_v3.5.12.mnaddon",
+        "customUrl": true
+      }
+    ]
+  },
+  {
+    "name": "✨ AI助手",
+    "logo": "https://1836303614.v.123pan.cn/1836303614/dl/icon/addon_certificated.png",
+    "globalLogo": "https://qiniu.feliks.top/icon/addon_certificated.png",
+    "version": "v7.7.63",
+    "author": "Aries",
+    "id": "aiagent",
+    "fullId": "top.museday.mn4.aiagent",
+    "tags": ["AI"],
+    "description": "https://bbs.marginnote.com.cn/t/topic/67009",
+    "summary": "AI 助手",
+    "urlToParse": "https://bbs.marginnote.com.cn/t/topic/67009",
+    "customUrl": true,
+    "url": "https://bbs.marginnote.com.cn/uploads/short-url/8ovgxNhMOD4lcc4Oh6yUul9f3Es.mnaddon",
+    "backUpUrl": "https://qiniu.feliks.top/mn4_ai_agent_v7.7.63.mnaddon",
+    "action": "install",
+    "history": [
+      {
+        "version": "7.7.63",
+        "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mn4_ai_agent_v7.7.63.mnaddon",
+        "customUrl": true
+      },
+      {
+        "version": "7.6.36",
+        "customUrl": true,
+        "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/mn4_ai_agent_v7.6.36.mnaddon",
+        "backUpUrl": "https://qiniu.feliks.top/mn4_ai_agent_v7.6.36.mnaddon",
+        "globalUrl": "https://qiniu.feliks.top/mn4_ai_agent_v7.6.36.mnaddon"
+      }
+    ]
+  },
+  {
+    "name": "Zotero Connector",
+    "logo": "https://1836303614.v.123pan.cn/1836303614/dl/icon/addon_certificated.png",
+    "globalLogo": "https://qiniu.feliks.top/icon/addon_certificated.png",
+    "version": "1.0.0-beta2",
+    "author": "ShenShichao",
+    "id": "zotero",
+    "fullId": "top.museday.mn.zotero",
+    "description": "https://bbs.marginnote.com.cn/t/topic/66816",
+    "customUrl": true,
+    "url": "https://bbs.marginnote.com.cn/uploads/short-url/onXKOqKk11emw5ZHGzttJDdhsSv.mnaddon",
+    "backUpUrl": "https://qiniu.feliks.top/zotero-connector-v1.0.0-beta.mnaddon",
+    "globalUrl": "https://qiniu.feliks.top/zotero-connector-v1.0.0-beta.mnaddon",
+    "action": "install",
+    "history": [
+      {
+        "version": "1.0.0-beta2",
+        "customUrl": true,
+        "url": "https://bbs.marginnote.com.cn/uploads/short-url/onXKOqKk11emw5ZHGzttJDdhsSv.mnaddon"
+      },
+      {
+        "version": "1.0.0-beta",
+        "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/zotero-connector-v1.0.0-beta.mnaddon",
+        "customUrl": true
+      },
+      {
+        "version": "0.6.0",
+        "customUrl": true,
+        "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/zotero-connector-v0.6.0.mnaddon",
+        "backUpUrl": "https://qiniu.feliks.top/zotero-connector-v0.6.0.mnaddon",
+        "globalUrl": "https://qiniu.feliks.top/zotero-connector-v0.6.0.mnaddon"
+      },
+      {
+        "version": "0.5.0",
+        "customUrl": true,
+        "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/zotero-connector-v0.5.0.mnaddon",
+        "backUpUrl": "https://qiniu.feliks.top/zotero-connector-v0.5.0.mnaddon",
+        "globalUrl": "https://qiniu.feliks.top/zotero-connector-v0.5.0.mnaddon"
+      },
+      {
+        "version": "0.3.1",
+        "customUrl": true,
+        "url": "https://1836303614.v.123pan.cn/1836303614/dl/mnaddonStore/zotero-connector-v0.3.1.mnaddon",
+        "backUpUrl": "https://qiniu.feliks.top/zotero-connector-v0.3.1.mnaddon",
+        "globalUrl": "https://qiniu.feliks.top/zotero-connector-v0.3.1.mnaddon"
+      }
+    ]
+  }
+]
